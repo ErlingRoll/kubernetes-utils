@@ -1,0 +1,9 @@
+dependencies:
+- name: metrics-server
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 2.11.1
+- name: kubernetes-dashboard
+  repository: https://kubernetes.github.io/dashboard/
+  version: 2.2.0
+digest: sha256:8040601ec79f00ac7df8f08930da1a74652e2028e89be4bb335e49bc3823255f
+generated: "2020-07-10T15:25:18.565498172+02:00"

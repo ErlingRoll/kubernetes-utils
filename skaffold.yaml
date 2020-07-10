@@ -1,0 +1,9 @@
+apiVersion: skaffold/v2beta5
+kind: Config
+deploy:
+  helm:
+    releases:
+      - name: utils
+        chartPath: kubernetes
+        namespace: kube-system
+        skipBuildDependencies: false

@@ -1,0 +1,12 @@
+apiVersion: v2
+name: kubernetes
+description: Kubernetes utils
+version: 0.1.0
+
+dependencies:
+  - name: metrics-server
+    version: 2.11.1
+    repository: https://kubernetes-charts.storage.googleapis.com
+  - name: kubernetes-dashboard
+    version: 2.2.0
+    repository: https://kubernetes.github.io/dashboard/
