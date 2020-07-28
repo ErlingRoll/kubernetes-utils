@@ -6,6 +6,7 @@ metrics-server:
   args:
     - "--kubelet-preferred-address-types=InternalIP"
     - "--kubelet-insecure-tls"
+    - "--v=2"
 
 kubernetes-dashboard:
   fullnameOverride: 'kubernetes-dashboard'
